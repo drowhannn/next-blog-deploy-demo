@@ -1,0 +1,14 @@
+.previewPost {
+  background-color: lightgray;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+  border-radius: 3px;
+  transition: 500ms ease;
+}
+
+.previewPost:hover {
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
